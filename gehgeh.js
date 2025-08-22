@@ -9,7 +9,7 @@ if (type === "id") {
   output.innerHTML = `
     <div class="id-card" id="card">
       <div class="id-header">
-        <img src="gehgeh.png" class="logo" alt="GehGeh University Logo" style="height: 15vh;width: 10vw;">
+        <img src="gehgeh.png" class="logo" alt="GehGeh University Logo" style="width: 300px;">
         <h3>GehGeh University of Wisdom and Understanding.</h3>
       </div>
       <hr>
