@@ -7,7 +7,6 @@ body {
   background-image: url(geh.png);
   backdrop-filter: blur(90px);
   background-size: cover;
-  background-repeat: no-repeat;
 }
 body h1 {
     font-size: 50px;
