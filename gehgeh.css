@@ -1,0 +1,114 @@
+/* General page styling */
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f9;
+  text-align: center;
+  padding: 30px;
+  background-image: url(geh.png);
+  backdrop-filter: blur(90px);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+body h1 {
+    font-size: 50px;
+    color: #fff;
+}
+.container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 15px;
+  width: 350px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+  font-weight: bold;
+}
+
+input, select, button {
+  width: 90%;
+  padding: 10px;
+  margin-top: 5px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+}
+
+button {
+  background: #5a2d82;
+  color: white;
+  margin-top: 15px;
+  cursor: pointer;
+  font-weight: bold;
+}
+button:hover {
+  background: #451d61;
+}
+
+/* ID Card design */
+.id-card {
+  background: linear-gradient(135deg, #5a2d82, #b48e3c);
+  color: white;
+  padding: 15px;
+  border-radius: 15px;
+  width: 320px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  margin: auto;
+  text-align: left;
+}
+.id-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+.logo {
+  width: 50px;
+  height: 50px;
+}
+.id-card h2 {
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* Certificate design */
+.certificate {
+  position: relative;
+  width: 600px;
+  height: 500px;
+  border: 8px double #b48e3c;
+  margin: auto;
+  background: #fffbea;
+  padding: 40px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+.certificate h1 {
+  font-size: 28px;
+  margin-bottom: 20px;
+  color: #5a2d82;
+}
+.certificate h2 {
+  font-size: 24px;
+  margin: 10px 0;
+  color: #333;
+}
+.certificate h3 {
+  font-size: 22px;
+  margin: 10px 0;
+  color: #555;
+}
+.certificate p {
+  font-size: 18px;
+  margin: 10px 0;
+}
+.certificate .watermark {
+  position: absolute;
+  top: 89%;
+  left: 50%;
+  width: 10vw;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+}
